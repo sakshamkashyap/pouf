@@ -128,6 +128,7 @@ TABLE OF CONTENT
   --ui-radius-avatar: 5rem;
   --ui-radius-button: 5rem;
   --ui-radius-card  : .5rem;
+  --ui-radius-input : 5rem;
 
 }
 
@@ -287,6 +288,11 @@ button {
 .ui-component-button-big { width: 100%; }
 
 .ui-component-button-normal { width: fit-content; }
+
+.ui-component-button-medium {
+  padding: .625rem .875rem .75rem;
+  width: fit-content;
+}
 
 /*--------------------------------------------------------------
 |
